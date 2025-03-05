@@ -1,0 +1,201 @@
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* DESKTOP NAV */
+
+.logo {
+    font-size: 2rem;
+}
+
+nav, .nav-links {
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+.nav-links {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover {
+    color: #575757;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: #575757;
+}
+
+.logo:hover {
+    cursor: default;
+}
+
+/* SECTION */
+
+section {
+    padding-top: 20vh;
+    height: 90vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+/* PROFILE */
+
+.section_profile {
+    align-self: center;
+    text-align: center;
+}
+
+.section_profile p {
+    font-weight: 600;
+}
+
+.section_profile_p1 {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.title {
+    font-size: 2.7rem;
+    text-align: center;
+}
+
+.section_profile_p2 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 1.6rem;
+}
+
+/* SOCIAL */
+
+#social-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/* ICONS */
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+
+/* BUTTONS */
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn-1, .btn-2 {
+    border: rgb(0, 0, 0) 0.1rem solid;
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+
+}
+
+.btn-1:hover, .btn-2:hover {
+    cursor: pointer;
+}
+
+.btn-1 {
+    color: #000000;
+    background-color: #fffefe;
+    padding: 0.8rem 0.7rem;
+    border-radius: 2rem;
+}
+
+.btn-1:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.btn-2 {
+    color: #ffffff;
+    background-color: #353535;
+    padding: 0.8rem 0.9rem;
+    border-radius: 3rem;
+}
+
+.btn-2:hover {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+/* CONTACT */
+
+.section_contact {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 10vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+}
+
+.contact-icon {
+    cursor: default;
+}
+
+.email-icon {
+    height: 2.5rem;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.8rem;
+}

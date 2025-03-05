@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+<nav id="desktop-nav">
+    <div class="logo">Sudip Sarkar</div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="">about</a></li>
+            <li><a href="">projects</a></li>
+            <li><a href="">contact</a></li>
+        </ul>
+    </div>
+</nav>
+<section id="profile">
+<div class="section_profile">
+    <p class="section_profile_p1">Hello there👋, I'm</p>
+    <h1 class="title">Sudip Sarkar</h1>
+    <p class="section_profile_p2">I am a frontend web developer specializing in JavaScript, HTML and CSS</p>
+    <div class="btn-container">
+        <button class="btn-1" onclick="window.open('./assets/a.png')">Download CV</button> <!-- change with cv-->
+        <button class="btn-2" onclick="location.href='./#contact'">Contact Info</button>
+    </div>
+    <div id="social-container">
+        <img src="./assets/github.png" alt="my github profile"  class="icon" onclick="location.href='https://github.com/sudipskr31'">
+        <img src="./assets/linkedin.png" alt="my linkedin profile"  class="icon" onclick="location.href='https://github.com/'">
+    </div>
+</div>
+</section>
+<section id="contact">
+        <p class="section_contact">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon"/>
+                <p><a href="mailto:examplemail@gmail.com">Sudipskr321@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img
+                        src="./assets/linkedin.png"
+                        alt="LinkedIn icon"
+                        class="icon contact-icon"
+                />
+                <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
+            </div>
+        </div>
+</section>
+<footer>
+    <nav>
+        <div class="footer-container">
+            <ul class="nav-links">
+                <li><a href="">about</a></li>
+                <li><a href="">projects</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <p class="copyright">Copyright &#169; 2025 Sudip Sarkar All Rights Reserved</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

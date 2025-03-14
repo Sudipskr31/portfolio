@@ -7,15 +7,18 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/fav.ico">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
 <nav id="navbar">
     <div class="head">SUDIP SARKAR</div>
     <div>
         <ul class="menu">
-            <li><a onclick="">About</a></li>
-            <li><a onclick="">Projects</a></li>
-            <li><a onclick="">Contact</a></li>
+            <li class="nav-li"><a onclick="skill('skills')">Skills</a></li>
+            <li class="nav-li"><a onclick="">Projects</a></li>
+            <li class="nav-li"><a onclick="">about</a></li>
+            <li class="nav-li"><a onclick="">Contact</a></li>
         </ul>
     </div>
 </nav>
@@ -23,11 +26,46 @@
     <div class="hero-container">
         <p class="hello">Hello There <span class="wave">👋</span> I'm</p>
         <h1 class="name">SUDIP SARKAR</h1>
-        <p class="profession">I am a Frontend / Backend Web Developer</p>
+        <p class="profession">I am a Full Stack Web Developer specializing in both Frontend and Backend technologies.</p>
         <a href="https://github.com/Sudipskr31" target="_blank" ><img src="svg/github.svg" alt="github-acc" class="github"/></a>
         <a href="https://www.fiverr.com/sudipskr/" target="_blank" ><img src="svg/fiverr.svg" alt="fiverr-acc" class="fiverr"></a>
+        <a href="https://x.com/Sudipskr321" target="_blank" ><img src="svg/x.svg" alt="x-acc" class="x"></a>
+        <a href="https://www.linkedin.com/in/sudip-sarkar-302505251/" target="_blank" ><img src="svg/linkedin.svg" alt="linkedin-acc" class="linkedin"></a>
     </div>
 </section>
+<section id="skills">
+    <h2 class="about-skills">SKILLS</h2>
+    <p class="industry">I am constantly learning new technologies to stay current with industry trends.</p>
+    <div class="front-back">
+        <h3 class="front">Front-end <i class="ri-user-line"></i></h3>
+        <h3 class="back">Back-end <i class="ri-code-s-slash-line"></i></h3>
+    </div>
+    <div class="skills-container">
+        <div class="frontend">
+            <ul class="frontend-list">
+                <li class="front-li">HTML <i class="ri-html5-fill"></i></li>
+                <li class="front-li">CSS <i class="ri-css3-fill"></i></li>
+                <li class="front-li">JavaScript <i class="ri-javascript-fill"></i></li>
+                <li class="front-li">TailWind <i class="ri-tailwind-css-fill"></i></li>
+            </ul>
+        </div>
+        <div class="backend">
+            <ul class="backend-list">
+                <li class="back-li">NodeJs <i class="ri-nodejs-line"></i></li>
+                <li class="back-li">React <i class="ri-reactjs-line"></i></li>
+                <li class="back-li">Github <i class="ri-github-fill"></i></li>
+                <li class="back-li">Database <i class="fa-solid fa-database" style="color: #74C0FC;"></i></li>
+            </ul>
+        </div>
+    </div>
+</section>
+<footer id="footer">
+    <div class="footer-text">
+        <div class="copyright">&#169 Copyright 2025</div>
+        <div class="reverved">All rights reserved. Powered by Sudip Sarkar</div>
+        <div class="email">Email : Sudipskr321@gmail.com</div>
+    </div>
+</footer>
 <script src="script.js"></script>
 </body>
 </html>

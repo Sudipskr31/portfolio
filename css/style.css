@@ -1,3 +1,4 @@
+/* imports */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
 * {
@@ -16,7 +17,6 @@ html {
 }
 
 /* nav section */
-
 nav,
 .menu {
   display: flex;
@@ -62,7 +62,6 @@ a:hover {
 }
 
 /* hero section */
-
 #hero {
   padding-top: 24rem;
   height: 42vh;
@@ -125,20 +124,23 @@ a:hover {
 }
 
 /* skill section */
-
 #skills {
   padding-top: 25px;
   height: fit-content;
   margin: 120px;
+  cursor: default;
 }
 
 .about-skills {
   color: #040404;
-  cursor: default;
   text-align: center;
   font-size: 1.3rem;
+}
+
+.about-skills:hover {
+  color: #008cff;
   text-decoration: underline;
-  text-underline-offset: 5px;
+  text-underline-offset: 10px;
   text-decoration-thickness: 2px;
 }
 
@@ -167,6 +169,7 @@ a:hover {
 .front-li,
 .back-li {
   color: #000000;
+  margin-bottom: 20px;
 }
 
 .frontend,
@@ -214,14 +217,87 @@ a:hover {
   color: #00d9ff;
 }
 
+/* project section */
+#projects {
+  display: flex;
+  cursor: default;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.project-head {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.project-head:hover {
+  color: #008cff;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 2px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #000000;
+  border-radius: 25px;
+  height: 720px;
+  width: 720px;
+}
+
+/* contact section */
+#contacts {
+  display: flex;
+  flex-direction: column;
+  cursor: default;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-head {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.contact-head:hover {
+  color: #008cff;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 2px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  gap: 5px;
+  border: 5px solid #000000;
+  border-radius: 25px;
+  height: 200px;
+  width: 720px;
+}
+
+/* footer section */
 #footer {
-  margin-top: 10px;
+  cursor: default;
+  margin-bottom: 5px;
 }
 
 .footer-text {
   display: flex;
   justify-content: center;
   gap: 1rem;
+}
+
+.emailfooter:hover {
+  color: #ff5e5e;
 }
 
 /* keyframes */

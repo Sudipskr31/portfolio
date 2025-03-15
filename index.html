@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Portfolio</title>
     <link rel="icon" type="image/png" sizes="32x32" href="images/fav.ico">
     <link rel="stylesheet" href="css/style.css" />
@@ -16,9 +17,9 @@
     <div>
         <ul class="menu">
             <li class="nav-li"><a onclick="skill('skills')">Skills</a></li>
-            <li class="nav-li"><a onclick="">Projects</a></li>
-            <li class="nav-li"><a onclick="">about</a></li>
-            <li class="nav-li"><a onclick="">Contact</a></li>
+            <li class="nav-li"><a onclick="">About</a></li>
+            <li class="nav-li"><a onclick="project('projects')">Projects</a></li>
+            <li class="nav-li"><a onclick="contact('contacts')">Contacts</a></li>
         </ul>
     </div>
 </nav>
@@ -34,7 +35,7 @@
     </div>
 </section>
 <section id="skills">
-    <h2 class="about-skills">SKILLS</h2>
+    <h2 class="about-skills">Skills</h2>
     <p class="industry">I am constantly learning new technologies to stay current with industry trends.</p>
     <div class="front-back">
         <h3 class="front">Front-end <i class="ri-user-line"></i></h3>
@@ -59,11 +60,30 @@
         </div>
     </div>
 </section>
+<section id="about">
+
+</section>
+<section id="projects">
+    <h2 class="project-head">Project</h2>
+    <p class="industry">Here are some projects I have developed while learning web development.</p>
+    <div class="project-container">
+        <h1>Under Construction <i class="fa-solid fa-wrench fa-beat" style="color: #000000;"></i></h1> <!-- change the content when you want to add new projects-->
+    </div>
+</section>
+<section id="contacts">
+    <h2 class="contact-head">Contact</h2>
+    <p class="industry">Feel free to reach out for collaborations, project inquiries, or any professional needs</p>
+    <div class="contact-container">
+        <h2 class="social"><i class="fa-solid fa-envelope" style="color: #ff4545;"></i> Email : Sudipskr321@gmail.com</h2>
+        <h2 class="social"><i class="fa-brands fa-x-twitter" style="color: #000000;"></i> Twitter(X) : Sudipskr321</h2>
+        <h2 class="social"><i class="fa-brands fa-linkedin" style="color: #008cff;"></i> Linkedin : Sudipskr321</h2>
+    </div>
+</section>
 <footer id="footer">
     <div class="footer-text">
         <div class="copyright">&#169 Copyright 2025</div>
         <div class="reverved">All rights reserved. Powered by Sudip Sarkar</div>
-        <div class="email">Email : Sudipskr321@gmail.com</div>
+        <div class="email"><span class="emailfooter">Email : Sudipskr321@gmail.com</span></div>
     </div>
 </footer>
 <script src="script.js"></script>
